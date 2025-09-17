@@ -4,7 +4,7 @@ It is a SoC based on Croc (for more information: github.com/pulp-platform/croc),
 
 ## Architecture
 
-![Block diagram of Moloch SoC](croc_with_SHA_256/doc/Bachlor_thesis_SoC.drawio.png)
+![Block diagram of Moloch SoC](doc/Bachlor_thesis_SoC.drawio.png)
 
 
 A simple SoC for education using PULP IPs. Croc includes all scripts necessary to produce a nearly finished chip in [IHPs open-source 130nm technology](https://github.com/IHP-GmbH/IHP-Open-PDK/tree/main).
