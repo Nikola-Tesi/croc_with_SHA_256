@@ -1,4 +1,11 @@
-# Croc System-on-Chip
+# Moloch
+
+It is a SoC based on Croc (for more information: github.com/pulp-platform/croc), enhanced with a new feature: a hardware accelerator for SHA-256. This addition is particularly useful for ensuring data integrity, especially considering the increasing volume of sensitive data transmissions and the growing demand for heterogeneous System-on-Chips, which make the integration of a cryptographic accelerator for the Secure Hash Algorithm 256 (SHA-256) in Croc essential.
+
+## Architecture
+
+![Block diagram of Moloch SoC](croc_with_SHA_256/doc/Bachlor_thesis_SoC.drawio.png)
+
 
 A simple SoC for education using PULP IPs. Croc includes all scripts necessary to produce a nearly finished chip in [IHPs open-source 130nm technology](https://github.com/IHP-GmbH/IHP-Open-PDK/tree/main).
 
