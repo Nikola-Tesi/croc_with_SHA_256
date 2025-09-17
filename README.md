@@ -52,7 +52,7 @@ The [MLEM user ROM](https://github.com/pulp-platform/croc/blob/mlem-tapeout/rtl/
 ### Example Results
 Cell/Module placement                      |  Routing
 :-----------------------------------------:|:------------------------------------:
-![Chip module view](doc/croc_modules.jpg)  |  ![Chip routed](doc/croc_routed.jpg)
+![Chip module view_sha](doc/croc_SHA.png)  |  ![Chip routed](doc/croc_routed.jpg)
 
 
 
