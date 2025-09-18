@@ -7,7 +7,12 @@ It is a SoC based on Croc (for more information: github.com/pulp-platform/croc),
 <img src="doc/Bachlor_thesis_SoC.drawio.png" alt="Block diagram of Moloch SoC" width="600"/>
 
 
-The main architectural difference compared to Croc is the cryptographic SHA-256 accelerator, which Croc does not implement. In Moloch, this accelerator is directly connected to the OBI bus, enabling efficient communication with CVE2, the RISC-V core, as well as with the rest of the SoC.
+The main architectural difference from Croc is the addition of a cryptographic SHA-256 accelerator, which is not present in Croc. In Moloch, this accelerator is directly connected to the OBI bus, enabling efficient communication with CVE2, the RISC-V core, as well as with the rest of the SoC.
+
+For more information on its implementation: [📄 Download Bachelor Thesis PDF](doc/Nikola_Tesic_Impleme%20of%20SHA256%20hardware%20accelerator%20for%20the%20SoC%20Croc.pdf)
+
+
+
 
 ## Configuration
 
