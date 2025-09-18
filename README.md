@@ -4,7 +4,8 @@ It is a SoC based on Croc (for more information: github.com/pulp-platform/croc),
 
 ## Architecture
 
-![Block diagram of Moloch SoC](doc/Bachlor_thesis_SoC.drawio.png)
+<img src="doc/Bachlor_thesis_SoC.drawio.png" alt="Block diagram of Moloch SoC" width="800"/>
+
 
 The main difference in the architecture compared to Croc is the SHA-256 accelerator, which is directly connected to the OBI bus. This connection allows it to communicate efficiently with CVE2, the RISC-V core of the SoC.
 
@@ -18,9 +19,10 @@ Finally, the file `openroad/floorplan.tcl` contains the necessary scripts for ge
 
 ## Results 
 
-Moloch                                     |  Croc
-:-----------------------------------------:|:------------------------------------:
-![Chip module view_sha](doc/Croc_SHA.png)  |  ![Chip module view](doc/croc_modules.jpg)                  
+Moloch | Croc
+:-----:|:-----:
+<img src="doc/Croc_SHA.png" alt="Moloch SoC" width="400"/> | <img src="doc/croc_modules.jpg" alt="Croc SoC" width="400"/>
+              
 
 | Result     | Description |
 |------------|-------------|
