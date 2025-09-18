@@ -11,7 +11,7 @@ The main difference in the architecture compared to Croc is the SHA-256 accelera
 
 ## Configuration
 
-All RTL code for the hardware accelerator can be found in the `rtl/cryptographic_acc`  directory. The files user_domain.sv and user_pkg.sv were modified to integrate the accelerator with the OBI bus.
+All RTL code for the hardware accelerator can be found in the `rtl/cryptographic_acc`  directory. The files `user_domain.sv` and `user_pkg.sv` were modified to integrate the accelerator with the OBI bus.
 
 On the software side, two C programs are provided: `sw/testbencher_croc.c`, used to verify the functionality of the new hardware implementation, and `sw/SHA256.c`, which serves as a reference to compare performance and confirm the speedup achieved by the accelerator.
 
