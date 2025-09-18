@@ -30,7 +30,7 @@ Moloch | Croc
 | Frequency | Maintained system frequency with **no degradation** |
 | Area | Area increase of **27 kGE** |
 
-⚠️ **Note:** the software implementation in `SHA256.c` is not fully optimized; therefore, the reported speedup may be slightly lower in a fair comparison.
+⚠️ **Note:** the software implementation in `SHA256.c` is not fully optimized; therefore, the reported speedup may be lower in a fair comparison.
 
 
 ## License
