@@ -1,6 +1,6 @@
 # Moloch
 
-It is a SoC based on Croc (for more information: github.com/pulp-platform/croc), enhanced with a new feature: a hardware accelerator for SHA-256. This addition is particularly useful for ensuring data integrity, especially considering the increasing volume of sensitive data transmissions and the growing demand for heterogeneous System-on-Chips, which make the integration of a cryptographic accelerator for the Secure Hash Algorithm 256 (SHA-256) in Croc a good choice.
+It is a SoC based on Croc (for more information: [Croc Github page](https://github.com/pulp-platform/croc/tree/main)), enhanced with a new feature: a hardware accelerator for SHA-256. This addition is particularly useful for ensuring data integrity, especially considering the increasing volume of sensitive data transmissions and the growing demand for heterogeneous System-on-Chips, which make the integration of a cryptographic accelerator for the Secure Hash Algorithm 256 (SHA-256) in Croc a good choice.
 
 ## Architecture
 
@@ -37,6 +37,9 @@ Moloch | Croc
 
 ⚠️ **Note:** the software implementation in `SHA256.c` is not fully optimized; therefore, the reported speedup may be lower in a fair comparison.
 
+## DRC and LVC verification
+
+For this exact microchip, DRC and LVS verification were not performed. However, the project—with some small modifications—was reused for another course, where partial verification was carried out. If you are curious, I invite you to check the [GitHub page dedicated to that course](https://github.com/Nikola-Tesi/croc_with_SHA_256_VLSI_2/tree/main).
 
 ## License
 Unless specified otherwise in the respective file headers, all code checked into this repository is made available under a permissive license. All hardware sources and tool scripts are licensed under the Solderpad Hardware License 0.51 (see `LICENSE.md`). All software sources are licensed under Apache 2.0.
