@@ -35,7 +35,8 @@ Moloch | Croc
 | Frequency | Maintained system frequency with **no degradation** |
 | Area | Area increase of **27 kGE** |
 
-⚠️ **Note:** the software implementation in `SHA256.c` is not fully optimized; therefore, the reported speedup may be lower in a fair comparison.
+⚠️ **Note:** The software implementation in `SHA256.c` is not fully optimized; therefore, the reported speedup may be lower in a fair comparison. However, in [Moloch – Part 2](https://github.com/Nikola-Tesi/croc_with_SHA_256_VLSI_2), using other reference codes found online, the speedup remains unchanged.
+
 
 ## DRC and LVC verification
 
