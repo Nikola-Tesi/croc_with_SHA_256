@@ -31,7 +31,7 @@ Moloch | Croc
 
 | Result     | Description |
 |------------|-------------|
-| Speedup | Achieved **54× faster** than the software implementation on a RISC-V core |
+| Speedup | Moloch executes the SHA-256 algorithm **54× faster** than the Croc SoC |
 | Frequency | Maintained system frequency with **no degradation** |
 | Area | Area increase of **27 kGE** |
 
